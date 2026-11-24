@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "hss-biblio": {
+      "command": "python",
+      "args": ["-m", "hss_biblio_mcp"],
+      "env": {
+        "HSS_CONTACT_EMAIL": "your-email@example.com",
+        "OPENALEX_API_KEY": "",
+        "SEMANTIC_SCHOLAR_API_KEY": "",
+        "GOOGLE_BOOKS_API_KEY": "",
+        "CORE_API_KEY": "",
+        "DOAJ_API_KEY": "",
+        "OPENAIRE_API_TOKEN": "",
+        "HSS_CACHE_TTL_SECONDS": "86400"
+      }
+    }
+  }
+}
